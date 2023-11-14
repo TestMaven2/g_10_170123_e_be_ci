@@ -11,5 +11,6 @@ public class NumberService {
 
     public int getDoubledNumber() {
         int result = getNumber() * 2;
+        return result;
     }
 }
