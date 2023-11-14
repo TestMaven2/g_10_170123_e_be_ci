@@ -8,4 +8,8 @@ public class NumberService {
     public int getNumber() {
         return 7;
     }
+
+    public int getDoubledNumber() {
+        int result = getNumber() * 2;
+    }
 }
