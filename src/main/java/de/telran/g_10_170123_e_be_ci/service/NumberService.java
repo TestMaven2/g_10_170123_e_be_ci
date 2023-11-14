@@ -10,7 +10,7 @@ public class NumberService {
     }
 
     public int getDoubledNumber() {
-        int result = getNumber() * 2;
+        int result = getNumber() * 2 + 1;
         return result;
     }
 }
